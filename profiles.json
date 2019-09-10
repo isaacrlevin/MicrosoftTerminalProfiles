@@ -3,8 +3,8 @@
     {
         "alwaysShowTabs" : true,
         "defaultProfile" : "{574e775e-4f2a-5b96-ac1e-a2962a402336}",
-        "initialCols" : 250,
-        "initialRows" : 60,
+        "initialCols" : 50,
+        "initialRows" : 20,
         "keybindings" : 
         [
             {
@@ -241,7 +241,7 @@
     [
         {
             "acrylicOpacity" : 0.5,
-            "backgroundImage" : "ms-appdata:///roaming/ps-core.png",
+            "backgroundImage" : "ms-appdata:///local/ps-core.png",
             "backgroundImageOpacity" : 0.30000001192092896,
             "backgroundImageStretchMode" : "none",
             "closeOnExit" : true,
@@ -250,7 +250,7 @@
             "cursorColor" : "#FFFFFF",
             "cursorShape" : "bar",
             "fontFace" : "UbuntuMono NF",
-            "fontSize" : 10,
+            "fontSize" : 20,
             "guid" : "{574e775e-4f2a-5b96-ac1e-a2962a402336}",
             "historySize" : 9001,
             "icon" : "ms-appx:///ProfileIcons/{574e775e-4f2a-5b96-ac1e-a2962a402336}.png",
@@ -262,7 +262,7 @@
         {
             "acrylicOpacity" : 0.5,
             "background" : "#012456",
-            "backgroundImage" : "ms-appdata:///roaming/ps.png",
+            "backgroundImage" : "ms-appdata:///local/ps.png",
             "backgroundImageOpacity" : 0.30000001192092896,
             "backgroundImageStretchMode" : "none",
             "closeOnExit" : true,
@@ -282,7 +282,7 @@
         },
         {
             "acrylicOpacity" : 0.75,
-            "backgroundImage" : "ms-appdata:///roaming/cmd.png",
+            "backgroundImage" : "ms-appdata:///local/cmd.png",
             "backgroundImageOpacity" : 0.30000001192092896,
             "backgroundImageStretchMode" : "none",
             "closeOnExit" : true,
@@ -302,7 +302,7 @@
         },
         {
             "acrylicOpacity" : 0.85000002384185791,
-            "backgroundImage" : "ms-appdata:///roaming/Azure.png",
+            "backgroundImage" : "ms-appdata:///local/Azure.png",
             "backgroundImageOpacity" : 0.30000001192092896,
             "backgroundImageStretchMode" : "none",
             "closeOnExit" : true,
@@ -322,7 +322,7 @@
         },
         {
             "acrylicOpacity" : 0.5,
-            "backgroundImage" : "ms-appdata:///roaming/OS_Ubuntu.png",
+            "backgroundImage" : "ms-appdata:///local/OS_Ubuntu.png",
             "backgroundImageOpacity" : 0.30000001192092896,
             "backgroundImageStretchMode" : "none",
             "closeOnExit" : true,
@@ -334,7 +334,7 @@
             "fontSize" : 10,
             "guid" : "{2c4de342-38b7-51cf-b940-2309a097f518}",
             "historySize" : 9001,
-            "icon" : "ms-appdata:///roaming/ubuntu.png",
+            "icon" : "ms-appdata:///local/ubuntu.png",
             "name" : "Ubuntu",
             "padding" : "0, 0, 0, 0",
             "snapOnInput" : true,
@@ -342,7 +342,7 @@
         },
         {
             "acrylicOpacity" : 0.5,
-            "backgroundImage" : "ms-appdata:///roaming/debian-transparent-rouge.png",
+            "backgroundImage" : "ms-appdata:///local/debian-transparent-rouge.png",
             "backgroundImageOpacity" : 0.30000001192092896,
             "backgroundImageStretchMode" : "none",
             "closeOnExit" : true,
@@ -354,7 +354,7 @@
             "fontSize" : 10,
             "guid" : "{58ad8b0c-3ef8-5f4d-bc6f-13e4c00f2530}",
             "historySize" : 9001,
-            "icon" : "ms-appdata:///roaming/debian.png",
+            "icon" : "ms-appdata:///local/debian.png",
             "name" : "Debian",
             "padding" : "0, 0, 0, 0",
             "snapOnInput" : true,
@@ -362,7 +362,7 @@
         },
         {
             "acrylicOpacity" : 0.5,
-            "backgroundImage" : "ms-appdata:///roaming/pengwin.png",
+            "backgroundImage" : "ms-appdata:///local/pengwin.png",
             "backgroundImageOpacity" : 0.30000001192092896,
             "backgroundImageStretchMode" : "none",
             "closeOnExit" : true,
@@ -374,7 +374,7 @@
             "fontSize" : 10,
             "guid" : "{58ad8b0c-3ef8-5f4d-bc6f-13e4c00f2531}",
             "historySize" : 9001,
-            "icon" : "ms-appdata:///roaming/pengwin-icon.png",
+            "icon" : "ms-appdata:///local/pengwin-icon.png",
             "name" : "Pengwin",
             "padding" : "0, 0, 0, 0",
             "snapOnInput" : true,
@@ -382,7 +382,7 @@
         },
         {
             "acrylicOpacity" : 0.85000002384185791,
-            "backgroundImage" : "ms-appdata:///roaming/vs-logo.png",
+            "backgroundImage" : "ms-appdata:///local/vs-logo.png",
             "backgroundImageOpacity" : 0.30000001192092896,
             "backgroundImageStretchMode" : "none",
             "closeOnExit" : false,
@@ -395,7 +395,7 @@
             "fontSize" : 10,
             "guid" : "{39285a8e-036c-446f-8a9c-78994e34bf85}",
             "historySize" : 9001,
-            "icon" : "ms-appdata:///roaming/vs.png",
+            "icon" : "ms-appdata:///local/vs.png",
             "name" : "VS2019 Powershell",
             "padding" : "0, 0, 0, 0",
             "snapOnInput" : true,
