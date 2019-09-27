@@ -1,232 +1,232 @@
 {
-    "globals" : 
+    "globals" :
     {
         "alwaysShowTabs" : true,
-        "defaultProfile" : "{574e775e-4f2a-5b96-ac1e-a2962a402336}",
-        "initialCols" : 50,
-        "initialRows" : 20,
-        "keybindings" : 
+        "defaultProfile" : "{39285a8e-036c-446f-8a9c-78994e34bf85}",
+        "initialCols" : 125,
+        "initialRows" : 30,
+        "keybindings" :
         [
             {
                 "command" : "closePane",
-                "keys" : 
+                "keys" :
                 [
                     "ctrl+shift+w"
                 ]
             },
             {
                 "command" : "copy",
-                "keys" : 
+                "keys" :
                 [
                     "ctrl+shift+c"
                 ]
             },
             {
                 "command" : "duplicateTab",
-                "keys" : 
+                "keys" :
                 [
                     "ctrl+shift+d"
                 ]
             },
             {
                 "command" : "newTab",
-                "keys" : 
+                "keys" :
                 [
                     "ctrl+shift+t"
                 ]
             },
             {
                 "command" : "newTabProfile0",
-                "keys" : 
+                "keys" :
                 [
                     "ctrl+shift+1"
                 ]
             },
             {
                 "command" : "newTabProfile1",
-                "keys" : 
+                "keys" :
                 [
                     "ctrl+shift+2"
                 ]
             },
             {
                 "command" : "newTabProfile2",
-                "keys" : 
+                "keys" :
                 [
                     "ctrl+shift+3"
                 ]
             },
             {
                 "command" : "newTabProfile3",
-                "keys" : 
+                "keys" :
                 [
                     "ctrl+shift+4"
                 ]
             },
             {
                 "command" : "newTabProfile4",
-                "keys" : 
+                "keys" :
                 [
                     "ctrl+shift+5"
                 ]
             },
             {
                 "command" : "newTabProfile5",
-                "keys" : 
+                "keys" :
                 [
                     "ctrl+shift+6"
                 ]
             },
             {
                 "command" : "newTabProfile6",
-                "keys" : 
+                "keys" :
                 [
                     "ctrl+shift+7"
                 ]
             },
             {
                 "command" : "newTabProfile7",
-                "keys" : 
+                "keys" :
                 [
                     "ctrl+shift+8"
                 ]
             },
             {
                 "command" : "newTabProfile8",
-                "keys" : 
+                "keys" :
                 [
                     "ctrl+shift+9"
                 ]
             },
             {
                 "command" : "nextTab",
-                "keys" : 
+                "keys" :
                 [
                     "ctrl+tab"
                 ]
             },
             {
                 "command" : "openSettings",
-                "keys" : 
+                "keys" :
                 [
                     "ctrl+,"
                 ]
             },
             {
                 "command" : "paste",
-                "keys" : 
+                "keys" :
                 [
                     "ctrl+shift+v"
                 ]
             },
             {
                 "command" : "prevTab",
-                "keys" : 
+                "keys" :
                 [
                     "ctrl+shift+tab"
                 ]
             },
             {
                 "command" : "scrollDown",
-                "keys" : 
+                "keys" :
                 [
                     "ctrl+shift+down"
                 ]
             },
             {
                 "command" : "scrollDownPage",
-                "keys" : 
+                "keys" :
                 [
                     "ctrl+shift+pgdn"
                 ]
             },
             {
                 "command" : "scrollUp",
-                "keys" : 
+                "keys" :
                 [
                     "ctrl+shift+up"
                 ]
             },
             {
                 "command" : "scrollUpPage",
-                "keys" : 
+                "keys" :
                 [
                     "ctrl+shift+pgup"
                 ]
             },
             {
                 "command" : "splitHorizontal",
-                "keys" : 
+                "keys" :
                 [
                     "ctrl+shift+-"
                 ]
             },
             {
                 "command" : "splitVertical",
-                "keys" : 
+                "keys" :
                 [
                     "ctrl+shift+\\"
                 ]
             },
             {
                 "command" : "switchToTab0",
-                "keys" : 
+                "keys" :
                 [
                     "ctrl+alt+1"
                 ]
             },
             {
                 "command" : "switchToTab1",
-                "keys" : 
+                "keys" :
                 [
                     "ctrl+alt+2"
                 ]
             },
             {
                 "command" : "switchToTab2",
-                "keys" : 
+                "keys" :
                 [
                     "ctrl+alt+3"
                 ]
             },
             {
                 "command" : "switchToTab3",
-                "keys" : 
+                "keys" :
                 [
                     "ctrl+alt+4"
                 ]
             },
             {
                 "command" : "switchToTab4",
-                "keys" : 
+                "keys" :
                 [
                     "ctrl+alt+5"
                 ]
             },
             {
                 "command" : "switchToTab5",
-                "keys" : 
+                "keys" :
                 [
                     "ctrl+alt+6"
                 ]
             },
             {
                 "command" : "switchToTab6",
-                "keys" : 
+                "keys" :
                 [
                     "ctrl+alt+7"
                 ]
             },
             {
                 "command" : "switchToTab7",
-                "keys" : 
+                "keys" :
                 [
                     "ctrl+alt+8"
                 ]
             },
             {
                 "command" : "switchToTab8",
-                "keys" : 
+                "keys" :
                 [
                     "ctrl+alt+9"
                 ]
@@ -237,7 +237,7 @@
         "showTerminalTitleInTitlebar" : true,
         "wordDelimiters" : " ./\\()\"'-:,.;<>~!@#$%^&*|+=[]{}~?\u2502"
     },
-    "profiles" : 
+    "profiles" :
     [
         {
             "acrylicOpacity" : 0.5,
@@ -249,7 +249,7 @@
             "commandline" : "C:\\Program Files\\PowerShell\\6\\pwsh.exe",
             "cursorColor" : "#FFFFFF",
             "cursorShape" : "bar",
-            "fontFace" : "UbuntuMono NF",
+            "fontFace" : "DelugiaCode NF",
             "fontSize" : 20,
             "guid" : "{574e775e-4f2a-5b96-ac1e-a2962a402336}",
             "historySize" : 9001,
@@ -386,13 +386,13 @@
             "backgroundImageOpacity" : 0.30000001192092896,
             "backgroundImageStretchMode" : "none",
             "closeOnExit" : false,
-            "colorScheme" : "Campbell",
-            "commandline" : "cmd.exe /K\"C:\\PROGRA~2\\MICROS~4\\2019\\Preview\\Common7\\Tools\\VsDevCmd.bat\"",
+            "colorScheme" : "One Half Light",
+            "commandline" : "cmd.exe /K\"C:\\PROGRA~2\\MICROS~4\\2019\\Enterprise\\Common7\\Tools\\VsDevCmd.bat\"",
             "cursorColor" : "#00FF00",
             "cursorHeight" : 25,
             "cursorShape" : "vintage",
-            "fontFace" : "Fira Code",
-            "fontSize" : 10,
+            "fontFace" : "DelugiaCode NF",
+            "fontSize" : 14,
             "guid" : "{39285a8e-036c-446f-8a9c-78994e34bf85}",
             "historySize" : 9001,
             "icon" : "ms-appdata:///local/vs.png",
@@ -402,7 +402,7 @@
             "useAcrylic" : true
         }
     ],
-    "schemes" : 
+    "schemes" :
     [
         {
             "background" : "#0C0C0C",
