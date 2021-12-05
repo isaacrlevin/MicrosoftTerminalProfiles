@@ -1,0 +1,112 @@
+{
+    "$schema": "https://raw.githubusercontent.com/JanDeDobbeleer/oh-my-posh/main/themes/schema.json",
+    "console_title": true,
+    "console_title_style": "template",
+    "console_title_template": "{{if .Root}}(Admin) {{end}}{{.Folder}}",
+    "blocks": [
+        {
+            "type": "prompt",
+            "alignment": "left",
+            "segments": [
+                {
+                    "type": "root",
+                    "style": "powerline",
+                    "powerline_symbol": "",
+                    "foreground": "#242424",
+                    "background": "#f1184c",
+                    "properties": {
+                        "prefix": "",
+                        "postfix": ""
+                    }
+                },
+                {
+                    "type": "os",
+                    "style": "diamond",
+                    "leading_diamond": " ",
+                    "powerline_symbol": "",
+                    "foreground": "#3A86FF",
+                    "background": "#282c34",
+                    "properties": {
+                        "prefix": ""
+                    }
+                },
+                {
+                    "type": "time",
+                    "style": "powerline",
+                    "powerline_symbol": "",
+                    "foreground": "#FFBB00",
+                    "background": "#242424",
+                    "properties": {
+                        "time_format": "15:04:05",
+                        "prefix": ""
+                    }
+                },
+                {
+                    "type": "path",
+                    "style": "powerline",
+                    "powerline_symbol": "",
+                    "foreground": "#33DD2D",
+                    "background": "#242424",
+                    "properties": {
+                        "prefix": " ",
+                        "style": "folder",
+                        "folder_separator_icon": "/"
+                    }
+                },
+                {
+                    "type": "git",
+                    "style": "powerline",
+                    "powerline_symbol": "",
+                    "foreground": "#3A86FF",
+                    "background": "#242424",
+                    "properties": {
+                        "fetch_status": true,
+                        "fetch_stash_count": true,
+                        "fetch_upstream_icon": true,
+                        "template": "{{ .UpstreamIcon }}{{ .HEAD }}{{ if .Staging.Changed }}  {{ .Staging.String }}{{ end }}{{ if and (.Working.Changed) (.Staging.Changed) }} |{{ end }}{{ if .Working.Changed }}  {{ .Working.String }}{{ end }}{{ if gt .StashCount 0 }}  {{ .StashCount }}{{ end }}",
+                        "prefix": ""
+                    }
+                },
+                {
+                    "type": "dotnet",
+                    "style": "powerline",
+                    "powerline_symbol": "",
+                    "foreground": "#ffffff",
+                    "background": "#0184bc",
+                    "properties": {
+                        "prefix": "  "
+                    }
+                },
+                {
+                    "type": "exit",
+                    "style": "powerline",
+                    "powerline_symbol": "",
+                    "foreground": "#242424",
+                    "background": "#33DD2D",
+                    "background_templates": [
+                        "{{ if gt .Code 0 }}#f1184c{{ end }}"
+                    ],
+                    "properties": {
+                        "template": ""
+                    }
+                }
+            ]
+        },
+        {
+            "type": "prompt",
+            "alignment": "left",
+            "newline": true,
+            "segments": [
+                {
+                    "type": "text",
+                    "style": "plain",
+                    "foreground": "#f1184c",
+                    "properties": {
+                        "prefix": "",
+                        "text": "➜"
+                    }
+                }
+            ]
+        }
+    ]
+}
