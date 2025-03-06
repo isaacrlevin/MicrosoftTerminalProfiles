@@ -1,8 +1,3 @@
-Import-Module posh-git
-Import-Module oh-my-posh
-# Set-PoshPrompt -Theme Space
-oh-my-posh --init --shell pwsh --config "~/isaac.omp.json" | Invoke-Expression
-
 function Touch-File() {
     $fileName = $args[0]
     # Check of the file exists
@@ -22,3 +17,5 @@ function Touch-File() {
 if (-not(Test-Path -Path Alias:Touch)) {
     New-Alias -Name Touch Touch-File -Force
 }
+
+oh-my-posh init pwsh --config "~/.isaac.omp.json" | Invoke-Expression
